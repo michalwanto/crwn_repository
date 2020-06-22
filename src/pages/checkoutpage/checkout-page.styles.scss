@@ -13,6 +13,13 @@
     justify-content: space-between;
     border-bottom: 1px solid darkgrey;
 
+    .quantity {
+      padding-left: 18px;
+    }
+    .price {
+      padding-left: 20px;
+    }
+
     .header-block {
       text-transform: capitalize;
       width: 23%;
@@ -21,6 +28,15 @@
         width: 8%;
       }
     }
+  }
+  .test-warning {
+    font-size: 16px;
+    color: red;
+    text-align: center;
+    margin-top: 45px;
+  }
+  button {
+    margin-left: auto;
   }
 
   .total {
